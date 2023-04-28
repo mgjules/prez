@@ -63,7 +63,7 @@ While those tips work great for local companies, they are geared towards the glo
 
 ---
 
-### Tip #1
+### Tip #0
 
 Optimise for humans first.
 
@@ -79,7 +79,7 @@ Overall, keep the design simple!
 
 ---
 
-### Tip #2
+### Tip #1
 
 Prioritise the sections.
 
@@ -91,7 +91,7 @@ Example of an order: Personal Information, Experiences, Projects, Contributions,
 
 ---
 
-### Tip #3
+### Tip #2
 
 Stay away from ★ ★ ★ ★ ☆ !
 
@@ -103,19 +103,19 @@ Ideally lose the skill section. Add the skills under the relevant jobs and/or pr
 
 ---
 
-### Tip #4
+### Tip #3
 
 Keep the summary short, sweet, factual and simple.
 
 <!--
-No need to repeat ourselves in the "Personal Information" section. That's the purpose of the other sections.
+No need to repeat ourselves in the "Personal Information" section. No need to go into much details: that's the purpose of the other sections.
 
 Use it to set the tone.
 -->
 
 ---
 
-### Tip #5
+### Tip #4
 
 Have an **active** LinkedIn profile.
 
@@ -127,7 +127,7 @@ Also networking on LinkedIn can reap some unexpected benefits.
 
 ---
 
-### Tip #6
+### Tip #5
 
 Show impact! 💪
 
@@ -142,7 +142,7 @@ Use bullet points and action words (built, developed, created)!
 
 ---
 
-### Tip #7
+### Tip #6
 
 No need for personal photo.
 
@@ -154,7 +154,7 @@ While this rule varies from company to company and country to country, it is saf
 
 ---
 
-### Tip #8
+### Tip #7
 
 Attention to details.
 
@@ -164,7 +164,7 @@ Proof-read, proof-read, proof-read, proof-read, proof-read!
 
 ---
 
-### Tip #9
+### Tip #8
 
 Do not be scared of career breaks! 🏕️
 
@@ -174,7 +174,7 @@ We are humans and career breaks are natural. Mention them along with how they he
 
 ---
 
-### Tip #10
+### Tip #9
 
 Do not lie!
 
@@ -185,6 +185,25 @@ Be authentic!
 -->
 
 ---
-layout: iframe
-url: cv.pdf
+
+### Tip #10
+
+Tailor it.
+
+<!--
+Stay away from general purpose CV. Tailor it to match the industry or sub-field you are in.
+-->
+
 ---
+
+### Tip #11
+
+Self-market yourself!
+
+<!--
+Sometimes we are too humble and do not put ourselves in the best light.
+
+Understanding our strengths and weaknesses will help in putting our best self foward without coming out as arrogant but confident.
+
+What are you bringing to the table? Why you and not the other X applicants?
+-->
