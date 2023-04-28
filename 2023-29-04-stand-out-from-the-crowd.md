@@ -200,6 +200,8 @@ Stay away from general purpose CV. Tailor it to match the industry or sub-field 
 
 Self-market yourself!
 
+![why you?](meme-why-you.jpg)
+
 <!--
 Sometimes we are too humble and do not put ourselves in the best light.
 
@@ -207,3 +209,7 @@ Understanding our strengths and weaknesses will help in putting our best self fo
 
 What are you bringing to the table? Why you and not the other X applicants?
 -->
+
+---
+
+## Q&A
