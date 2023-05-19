@@ -368,6 +368,7 @@ You are also the interviewer.
 
 <!--
 Use the opportunity to know if the company fits your requirements.
+Spot any red flag through questions you are asked.
 -->
 
 ---
@@ -378,6 +379,7 @@ Ask questions.
 
 <!--
 They expect you to ask questions to show your interest and extend of your research.
+Do not ask tricky questions or questions that can easily be answered with a Google search.
 -->
 
 ---
@@ -387,7 +389,7 @@ They expect you to ask questions to show your interest and extend of your resear
 Take some deep breaths before.
 
 <!--
-Keep cool and calm down. Picture it as any other meeting.
+Keep cool and calm down. Picture it as any other meeting or exchange.
 -->
 
 ---
@@ -397,7 +399,7 @@ Keep cool and calm down. Picture it as any other meeting.
 Know your story well.
 
 <!--
-Nobody knows you better than yourself and stumbling when relating it can come off as you making things up.
+Nobody knows you better than yourself and stumbling when relating it can come off as you're making things up.
 -->
 
 ---
@@ -411,7 +413,7 @@ Listen.
 <!--
 Don't jump to conclusions and wait to get the full picture and understanding before answering.
 Also nobody likes being cut off. 
-Use that moment to formulate your answer as you are gradually given more information.
+Use that moment to formulate your answer/question as you are gradually given more information.
 -->
 
 ---
