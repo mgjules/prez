@@ -7,10 +7,20 @@ title: '**Stand out from the crowd**'
 
 # **Stand out from the crowd**
 
-Tips to improve your CV
+<p class="text-center">Tips to improve your CV</p>
 
 <!--
 - Present myself
+-->
+
+---
+
+# **Stand out from the crowd**
+
+<p class="text-center">Tips to <s>improve your CV</s> get hired</p>
+
+<!--
+- I lied!
 - Disclaimer
   - Not an exact science because of the human factor (imperfections in the system we built).
   - Not an expert. Based on personal experience. 
@@ -33,6 +43,7 @@ url: https://layoffs.fyi
 
 <!--
 - Since some time now companies are doing layoffs and the pool of unemployed devs has become quite large.
+- Let's not even mention those that are currently working and looking for new opportunities.
 - Many of them with the stamps of their previous employement on their CV.
 - Thus the importance of standing out of that crowd.
 -->
@@ -297,9 +308,127 @@ Show that you care about the position and didn't just throw a dynamite in the la
 
 ---
 
+### Tip #6
+
+i_use_arch_btw_1252@windows.sucks
+
+<!--
+If you are applying through email, then use a proper email address from a respectable mail server.
+-->
+
+---
+
 ## Bonus: Interview
 
+<div v-click>Screening > Technical > Team > Cultural > Boss > HR</div>
+<div v-click>30-60mins</div>
+<div v-click>How much of each do want? YES</div>
 
+---
+
+### Tips
+
+In no logical order. (yeah yeah we know)
+
+---
+
+#### Tip #0
+
+Know your tooling.
+
+<!--
+Navigating around your tooling efficiently is impressive.
+-->
+
+---
+
+#### Tip #1
+
+Get ready to note down.
+
+<!--
+You might be given a question or case study to analyze. Noting down key information or drawing can better help visualize.
+-->
+
+---
+
+#### Tip #2
+
+Make yourself comfortable.
+
+<!--
+You don't want to request a bathroom in the middle of the interview even in case of force majeur.
+-->
+
+---
+
+#### Tip #3
+
+You are also the interviewer.
+
+<!--
+Use the opportunity to know if the company fits your requirements.
+-->
+
+---
+
+#### Tip #4
+
+Ask questions.
+
+<!--
+They expect you to ask questions to show your interest and extend of your research.
+-->
+
+---
+
+#### Tip #5
+
+Take some deep breaths before.
+
+<!--
+Keep cool and calm down. Picture it as any other meeting.
+-->
+
+---
+
+#### Tip #6
+
+Know your story well.
+
+<!--
+Nobody knows you better than yourself and stumbling when relating it can come off as you making things up.
+-->
+
+---
+
+#### Tip #7
+
+Listen.
+
+<img src="/objection.gif" alt="Objection" width="300" />
+
+<!--
+Don't jump to conclusions and wait to get the full picture and understanding before answering.
+Also nobody likes being cut off. 
+Use that moment to formulate your answer as you are gradually given more information.
+-->
+
+---
+
+#### Tip #8
+
+Show that you can work in a team.
+
+<!--
+Most companies value team players above technical excellency.
+10x engineers only create 10x more work for the whole team.
+Be the person who you want to work with at the end of the day.
+-->
+
+---
+
+<img src="/thatsallfolks.gif" alt="That's all folks" width="600" />
 
 ---
 
