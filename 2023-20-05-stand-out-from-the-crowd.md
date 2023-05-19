@@ -364,7 +364,9 @@ You might be given a question or case study to analyze. Noting down key informat
 Make yourself comfortable.
 
 <!--
-You don't want to request a bathroom in the middle of the interview even in case of force majeur.
+You don't want to request a bathroom break in the middle of the interview even in case of force majeur.
+
+Silo out any distraction.
 -->
 
 ---
@@ -386,7 +388,9 @@ Spot any red flag through questions you are asked.
 Ask questions.
 
 <!--
-They expect you to ask questions to show your interest and extend of your research.
+They expect you to ask questions to show your interest and extent of your research.
+
+Ask questions to get a better understanding of the technical challenge.
 
 Do not ask tricky questions or questions that can easily be answered with a Google search.
 -->
