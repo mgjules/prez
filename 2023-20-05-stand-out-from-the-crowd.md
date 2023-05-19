@@ -243,7 +243,9 @@ Do not skip it!
 
 <!--
 On most online application forms, it is optional but in reality, it is very much required.
+
 If you want to stand out, it gives you the perfect opportunity.
+
 It will allow you to fill in the gaps in your curriculum vitae since there is not enough space there to share all your amazing skills and qualifications.
 -->
 
@@ -255,6 +257,7 @@ Greet a person and not to whom it may concern.
 
 <!--
 Show that you've done your research and homework about the company.
+
 Make it feel deliberately targeted.
 -->
 
@@ -266,7 +269,9 @@ Don't underestimate the opening.
 
 <!--
 Same as reading a story, spike the reader's interest with a strong opening.
+
 Stay away from generic opening like “I’m writing to express my interest in the position of…”.. 
+
 Be more creative!
 -->
 
@@ -290,6 +295,7 @@ Hehe, I know this and that!
 <!--
 Transitioning from the previous tip, as you are expanding on your qualifications, 
 point out your key skills that reassure the interviewer that there is no better fit than you.
+
 In essence, you are helping the interviewer connect the dots.
 -->
 
@@ -303,6 +309,7 @@ Tailor!
 
 <!--
 Don't wanna repeat myself but I want to get this through.
+
 Show that you care about the position and didn't just throw a dynamite in the lake hoping to catch something.
 -->
 
@@ -368,6 +375,7 @@ You are also the interviewer.
 
 <!--
 Use the opportunity to know if the company fits your requirements.
+
 Spot any red flag through questions you are asked.
 -->
 
@@ -379,6 +387,7 @@ Ask questions.
 
 <!--
 They expect you to ask questions to show your interest and extend of your research.
+
 Do not ask tricky questions or questions that can easily be answered with a Google search.
 -->
 
@@ -412,7 +421,9 @@ Listen.
 
 <!--
 Don't jump to conclusions and wait to get the full picture and understanding before answering.
+
 Also nobody likes being cut off. 
+
 Use that moment to formulate your answer/question as you are gradually given more information.
 -->
 
@@ -424,7 +435,9 @@ Show that you can work in a team.
 
 <!--
 Most companies value team players above technical excellency.
+
 10x engineers only create 10x more work for the whole team.
+
 Be the person who you want to work with at the end of the day.
 -->
 
