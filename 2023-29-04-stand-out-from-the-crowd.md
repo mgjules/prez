@@ -13,9 +13,9 @@ Tips to improve your CV
 - Present myself
 - Disclaimer
   - Not an exact science because of the human factor (imperfections in the system we built).
-  - Not an expert. Based on personal experience. 
+  - Not an expert. Based on personal experience and from researchers and expert recruiters.
 - Straight to the point. Not a time to bore you. Try my best to facilitate discussion (ask question).
-- Show of hand: Students, Devs, others.
+- Get a feel for the audience. Show of hand: Students, Devs, others.
 -->
 
 ---
@@ -42,13 +42,14 @@ url: https://layoffs.fyi
 ## Curriculum Vitae
 
 <div v-click>Indirect presentation</div>
-<div v-click>1-3 pages</div>
-<div v-click>Scanned by recruiters on average in ~6-7s</div>
+<div v-click>2-3 pages</div>
+<div v-click>Scanned by recruiters on average in ~6-8s</div>
 
 <!-- <a v-click href="cv.pdf" target="_blank">Example</a> -->
 
 <!--
 This part is just to bring everybody up to speed aka find some common ground.
+6-8s is the time they take to make a decision to either dive deeper or not in the CV: 8-15mins as per research.
 -->
 
 ---
