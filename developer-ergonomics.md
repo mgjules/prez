@@ -39,12 +39,13 @@ My journey to a more sustainable coding experience
 
 <!-- incremental_lists: true -->
 
-- Prevents burnout and repetitive strain injuries (NIOSH, 2019)
-- Improves long-term career sustainability
-- Prioritizes wellbeing over raw output
-- Decreases recovery time after intense work sessions
+- Prevents physical injuries that sideline careers (NIOSH, 2019)
 - RSI affects up to 30% of developers (Bureau of Labor Statistics, 2020)
-- Promotes a healthier relationship with technology
+- Reduces mental fatigue through optimized workflows
+- Enhances productivity by eliminating friction points
+- Shortens recovery time between deep work sessions
+- Creates a healthier relationship with technology
+- Focuses on career longevity rather than short-term output
 
 ---
 
