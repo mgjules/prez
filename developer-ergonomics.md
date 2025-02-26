@@ -23,8 +23,6 @@ My journey to a more sustainable coding experience
 - The intersection of human factors and software development
 - Making technology adapt to humans, not humans to technology
 
-> "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be." - Andrew Hunt & David Thomas, The Pragmatic Programmer ([Source](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/))
-
 ---
 
 ## Why Developer Ergonomics Matters
@@ -100,6 +98,8 @@ My journey to a more sustainable coding experience
 - Rectangle - Tiling window manager for macOS
 - Claude 3.7 Sonnet - AI model for programming assistance
 - Claude Code - AI pair programmer in the terminal
+
+> "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be." - Andrew Hunt & David Thomas, The Pragmatic Programmer ([Source](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/))
 
 ---
 
