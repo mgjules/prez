@@ -16,10 +16,6 @@ My journey to a more sustainable coding experience
 
 ## What is Developer Ergonomics?
 
-<!-- pause -->
-
-<!-- incremental_lists: true -->
-
 - Science of designing the developer experience for comfort and efficiency
 - Focuses on reducing physical and mental strain
 - Personal adaptations to optimize your workflow
@@ -35,10 +31,6 @@ My journey to a more sustainable coding experience
 
 ## Why Developer Ergonomics Matters
 
-<!-- pause -->
-
-<!-- incremental_lists: true -->
-
 - Prevents physical injuries that sideline careers (NIOSH, 2019)
 - RSI affects up to 30% of developers (Bureau of Labor Statistics, 2020)
 - Reduces mental fatigue through optimized workflows
@@ -51,10 +43,6 @@ My journey to a more sustainable coding experience
 
 ## My Physical Setup Journey
 
-<!-- pause -->
-
-<!-- incremental_lists: true -->
-
 - Started with terrible posture, now follow Cornell guidelines
 - Discovered the "right height" monitor setup makes a huge difference
 - Switched to ergonomic keyboard after wrist pain warning signs
@@ -64,10 +52,6 @@ My journey to a more sustainable coding experience
 ---
 
 ## How I Transformed My Workflow
-
-<!-- pause -->
-
-<!-- incremental_lists: true -->
 
 - Cut my context switching in half with better tool integration
 - Organized my digital workspace like a chef's mise en place
@@ -80,10 +64,6 @@ My journey to a more sustainable coding experience
 
 ## The Flow State
 
-<!-- pause -->
-
-<!-- incremental_lists: true -->
-
 - Mental state of complete immersion and focus (Csikszentmihalyi, 1990)
 - Takes ~23 minutes to enter after interruption (Mark et al., UC Irvine, 2005)
 - Up to 500% productivity increase (McKinsey study, 2013)
@@ -94,10 +74,6 @@ My journey to a more sustainable coding experience
 ---
 
 ## Ergonomics & Flow State
-
-<!-- pause -->
-
-<!-- incremental_lists: true -->
 
 - Proper ergonomics reduces barriers to entering flow
 - Reduces mental/physical fatigue that disrupts flow
@@ -110,10 +86,6 @@ My journey to a more sustainable coding experience
 
 ## My Toolkit
 
-<!-- pause -->
-
-<!-- incremental_lists: true -->
-
 - Kitty - GPU-accelerated terminal emulator
 - Neovim - Modal editing for reduced hand movement
 - Lazygit - TUI for streamlined git operations
@@ -125,10 +97,6 @@ My journey to a more sustainable coding experience
 
 ## Terminal-Centric Workflow
 
-<!-- pause -->
-
-<!-- incremental_lists: true -->
-
 - Reduced mouse dependence
 - Custom keybindings for common actions
 - Text interfaces often require less cognitive load
@@ -138,8 +106,6 @@ My journey to a more sustainable coding experience
 ---
 
 ## Ergonomic Tools
-
-<!-- incremental_lists: true -->
 
 | Category | Tools |
 | --- | --- |
@@ -171,8 +137,6 @@ My journey to a more sustainable coding experience
 
 ## Start Your Own Journey Today
 
-<!-- incremental_lists: true -->
-
 - Those keyboard shortcuts you keep avoiding? Learn 3 new ones this week
 - Your future self will thank you for setting up a dotfiles repo now
 - That chair you sit in 8+ hours a day? It's worth the investment!
@@ -182,10 +146,6 @@ My journey to a more sustainable coding experience
 ---
 
 ## My Multi-OS Adventure
-
-<!-- pause -->
-
-<!-- incremental_lists: true -->
 
 - I've stopped fighting OS wars - ergonomics transcends platforms
 - Found ways around macOS, Linux and Windows quirks with the right tools
@@ -197,18 +157,12 @@ My journey to a more sustainable coding experience
 
 ## My Most Important Lesson
 
-<!-- pause -->
-
 > "I realized ergonomics isn't about coding faster; it's about coding for decades to come."
 
 ---
 
-<!-- jump_to_middle -->
-
 # Questions?
 
 ---
-
-<!-- jump_to_middle -->
 
 # Thank you
