@@ -1,10 +1,3 @@
----
-theme: eloc
-layout: center
-transition: slide-left
-title: '**Stand out from the crowd**'
----
-
 # **Stand out from the crowd**
 
 <p class="text-center">Tips to improve your CV</p>
@@ -23,7 +16,7 @@ title: '**Stand out from the crowd**'
 - I lied!
 - Disclaimer
   - Not an exact science because of the human factor (imperfections in the system we built).
-  - Not an expert. Based on personal experience. 
+  - Not an expert. Based on personal experience.
 - Straight to the point. Not a time to bore you. Try my best to facilitate discussion (ask question).
 - Show of hand: Students, Devs, others.
 -->
@@ -37,8 +30,10 @@ What is that tech dilemma?
 -->
 
 ---
+
 layout: iframe
-url: https://layoffs.fyi
+url: <https://layoffs.fyi>
+
 ---
 
 <!--
@@ -270,7 +265,7 @@ Don't underestimate the opening.
 <!--
 Same as reading a story, spike the reader's interest with a strong opening.
 
-Stay away from generic opening like “I’m writing to express my interest in the position of…”.. 
+Stay away from generic opening like “I’m writing to express my interest in the position of…”..
 
 Be more creative!
 -->
@@ -282,7 +277,7 @@ Be more creative!
 DRY!
 
 <!--
-As you are filling in the gaps in your curriculum vitae, 
+As you are filling in the gaps in your curriculum vitae,
 don't repeat yourself but expand qualifications and why you are a good match for the position.
 -->
 
@@ -293,7 +288,7 @@ don't repeat yourself but expand qualifications and why you are a good match for
 Hehe, I know this and that!
 
 <!--
-Transitioning from the previous tip, as you are expanding on your qualifications, 
+Transitioning from the previous tip, as you are expanding on your qualifications,
 point out your key skills that reassure the interviewer that there is no better fit than you.
 
 In essence, you are helping the interviewer connect the dots.
@@ -317,7 +312,7 @@ Show that you care about the position and didn't just throw a dynamite in the la
 
 ### Tip #6
 
-i_use_arch_btw_1252@windows.sucks
+<i_use_arch_btw_1252@windows.sucks>
 
 <!--
 If you are applying through email, then use a proper email address from a respectable mail server.
@@ -426,7 +421,7 @@ Listen.
 <!--
 Don't jump to conclusions and wait to get the full picture and understanding before answering.
 
-Also nobody likes being cut off. 
+Also nobody likes being cut off.
 
 Use that moment to formulate your answer/question as you are gradually given more information.
 -->

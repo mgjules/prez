@@ -1,10 +1,3 @@
----
-theme: eloc
-layout: center
-transition: slide-left
-title: '**Stand out from the crowd**'
----
-
 # **Stand out from the crowd**
 
 Tips to improve your CV
@@ -27,8 +20,10 @@ What is that tech dilemma?
 -->
 
 ---
+
 layout: iframe
-url: https://layoffs.fyi
+url: <https://layoffs.fyi>
+
 ---
 
 <!--
