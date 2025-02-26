@@ -23,9 +23,9 @@ My journey to a more sustainable coding experience
 - The intersection of human factors and software development
 - Making technology adapt to humans, not humans to technology
 
-> "Developer ergonomics is about removing friction between your intent and your tools." - Dominic Elm, Principal Consultant at Thoughtworks
+> "The most powerful tool in software development is not the language or the framework, but the ability to minimize cognitive load, allowing developers to focus on the essential complexity of solving real problems, not fighting their tools." - Kelsey Hightower, Principal Engineer at Google Cloud
 
-> "The best tools feel like extensions of ourselves, not obstacles to overcome." - Kent C. Dodds, Software Engineer and Educator at KCD.dev
+> "Developer experience is not about creating the perfect tool, but about crafting a process that becomes invisible. The best developer tools are the ones you forget you're using because they so naturally extend your thinking process." - Sara Chipps, Director of Community at Stack Overflow
 
 ---
 
