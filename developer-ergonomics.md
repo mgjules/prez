@@ -160,7 +160,7 @@ Optimizing workflow, reducing fatigue
 1. Project navigation with fzf
 2. File editing in Neovim
 3. Git operations with Lazygit
-4. Task automation with shell scripts
+4. Claude Code for AI pair programming
 ```
 
 ---
