@@ -4,6 +4,16 @@ Optimizing workflow, reducing fatigue
 
 ---
 
+## Who am I?
+
+- Software engineer @ Livestorm
+- Been in the game for about 16 years now
+- I Love Go
+- Neovim enthusiast
+- I use Arch btw
+
+---
+
 ## What is Developer Ergonomics?
 
 <!-- pause -->
