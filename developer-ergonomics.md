@@ -90,30 +90,9 @@ My journey to a more sustainable coding experience
 
 ---
 
-## My Toolkit
-
-- Kitty - GPU-accelerated terminal emulator
-- Neovim - Modal editing for reduced hand movement
-- Lazygit - TUI for streamlined git operations
-- Rectangle - Tiling window manager for macOS
-- Claude 3.7 Sonnet - AI model for programming assistance
-- Claude Code - AI pair programmer in the terminal
+## Ergonomic Tools
 
 > "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be." - Andrew Hunt & David Thomas, The Pragmatic Programmer ([Source](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/))
-
----
-
-## Terminal-Centric Workflow
-
-- Reduced mouse dependence
-- Custom keybindings for common actions
-- Text interfaces often require less cognitive load
-- Consistent experience across systems
-- Terminal applications often use fewer resources
-
----
-
-## Ergonomic Tools
 
 | Category | Tools |
 | --- | --- |
@@ -128,6 +107,27 @@ My journey to a more sustainable coding experience
 | Window Management | Rectangle, yabai, i3wm, Amethyst |
 | Keyboard | QMK/ZMK firmware, AutoHotkey, Karabiner-Elements |
 | Time Management | Pomodoro timers, Focus app, Time Out |
+
+---
+
+## My Toolkit
+
+- Kitty - GPU-accelerated terminal emulator
+- Neovim - Modal editing for reduced hand movement
+- Lazygit - TUI for streamlined git operations
+- Rectangle - Tiling window manager for macOS
+- Claude 3.7 Sonnet - AI model for programming assistance
+- Claude Code - AI pair programmer in the terminal
+
+---
+
+## Terminal-Centric Workflow
+
+- Reduced mouse dependence
+- Custom keybindings for common actions
+- Text interfaces often require less cognitive load
+- Consistent experience across systems
+- Terminal applications often use fewer resources
 
 ---
 
