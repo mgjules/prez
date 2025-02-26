@@ -1,6 +1,6 @@
 # Developer Ergonomics
 
-Optimizing workflow, reducing fatigue
+My journey to a more sustainable coding experience
 
 ---
 
@@ -22,7 +22,10 @@ Optimizing workflow, reducing fatigue
 
 - Science of designing the developer experience for comfort and efficiency
 - Focuses on reducing physical and mental strain
-- Creates sustainable, enjoyable development practices
+- Personal adaptations to optimize your workflow
+- Customizing tools and environment to fit your unique needs
+- The intersection of human factors and software development
+- Making technology adapt to humans, not humans to technology
 
 > "Developer ergonomics is about removing friction between your intent and your tools." - Dominic Elm
 
@@ -45,32 +48,32 @@ Optimizing workflow, reducing fatigue
 
 ---
 
-## Physical Ergonomics
+## My Physical Setup Journey
 
 <!-- pause -->
 
 <!-- incremental_lists: true -->
 
-- Proper seating and desk setup (Cornell Ergonomics Lab)
-- Monitor position and height (OSHA guidelines)
-- Keyboard and mouse selection
-- Regular movement and stretching (Hedge et al., 2018)
-- Lighting and environment (International Commission on Illumination)
+- Started with terrible posture, now follow Cornell guidelines
+- Discovered the "right height" monitor setup makes a huge difference
+- Switched to ergonomic keyboard after wrist pain warning signs
+- Learned to take movement breaks every 30 minutes (saved my back!)
+- Found that natural lighting dramatically reduces eye strain
 
 ---
 
-## Workflow Ergonomics
+## How I Transformed My Workflow
 
 <!-- pause -->
 
 <!-- incremental_lists: true -->
 
-- Minimize unnecessary interactions
-- Thoughtful tool organization
-- Keyboard-centric workflows
-- Automate repetitive tasks
-- Streamlined information access
-- Consistent environment across machines
+- Cut my context switching in half with better tool integration
+- Organized my digital workspace like a chef's mise en place
+- Freed my hands from mouse dependence through keyboard mastery
+- Automated the boring stuff (because life's too short!)
+- Set up instant access to docs and references I need daily
+- Created the same comfortable environment on all my machines
 
 ---
 
@@ -165,37 +168,37 @@ Optimizing workflow, reducing fatigue
 
 ---
 
-## Quick Wins
+## Start Your Own Journey Today
 
 <!-- incremental_lists: true -->
 
-- Learn basic keyboard shortcuts
-- Set up dotfiles repository
-- Invest in a comfortable chair and keyboard
-- Schedule regular breaks (Pomodoro technique)
-- Learn one tool deeply rather than many superficially
+- Those keyboard shortcuts you keep avoiding? Learn 3 new ones this week
+- Your future self will thank you for setting up a dotfiles repo now
+- That chair you sit in 8+ hours a day? It's worth the investment!
+- Try the Pomodoro technique - it changed how I work
+- Master one tool that sparks joy rather than dabbling in ten
 
 ---
 
-## Cross-Platform Approach
+## My Multi-OS Adventure
 
 <!-- pause -->
 
 <!-- incremental_lists: true -->
 
-- Operating systems don't matter for developer ergonomics
-- Tools can compensate for OS limitations and quirks
-- Focus on consistent experience across environments
-- Your ergonomic setup should work regardless of platform
-- Same tools and workflows can often be recreated anywhere
+- I've stopped fighting OS wars - ergonomics transcends platforms
+- Found ways around macOS, Linux and Windows quirks with the right tools
+- Now I feel at home whether on my work Mac or personal Arch setup
+- Your muscle memory and workflow patterns can travel with you
+- I can recreate my experience anywhere with a few config files
 
 ---
 
-## Remember
+## My Most Important Lesson
 
 <!-- pause -->
 
-> "Ergonomics isn't about being faster; it's about being sustainable."
+> "I realized ergonomics isn't about coding faster; it's about coding for decades to come."
 
 ---
 
