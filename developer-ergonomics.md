@@ -23,9 +23,7 @@ My journey to a more sustainable coding experience
 - The intersection of human factors and software development
 - Making technology adapt to humans, not humans to technology
 
-> "The most powerful tool in software development is not the language or the framework, but the ability to minimize cognitive load, allowing developers to focus on the essential complexity of solving real problems, not fighting their tools." - Kelsey Hightower, Principal Engineer at Google Cloud
-
-> "Developer experience is not about creating the perfect tool, but about crafting a process that becomes invisible. The best developer tools are the ones you forget you're using because they so naturally extend your thinking process." - Sara Chipps, Director of Community at Stack Overflow
+> "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be." - Andrew Hunt & David Thomas, The Pragmatic Programmer ([Source](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/))
 
 ---
 
@@ -76,6 +74,10 @@ My journey to a more sustainable coding experience
 > **Sean Parker:** "What?"  
 > **Mark Zuckerberg:** "He's wired in."  
 > — The Social Network (2010)
+
+> "Frequent experiences of flow state at work lead to higher productivity, innovation, and employee development. Similarly, studies have shown that developers who enjoy their work perform better and produce higher-quality products. Interruptions and delays—which relate to the feedback loops dimension—are important factors that hinder a developer's ability to experience flow state. Other factors include maintaining autonomy over work structure, having clear team and project goals, and engaging in stimulating and challenging tasks." — DevEX: What Actually Drives Productivity
+
+**Recommended Reading:** [The Importance of Flow](https://microservices.io/post/architecture/2025/02/23/the-importance-of-flow.html)
 
 ---
 
