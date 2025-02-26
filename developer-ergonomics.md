@@ -23,9 +23,9 @@ My journey to a more sustainable coding experience
 - The intersection of human factors and software development
 - Making technology adapt to humans, not humans to technology
 
-> "Developer ergonomics is about removing friction between your intent and your tools." - Dominic Elm
+> "Developer ergonomics is about removing friction between your intent and your tools." - Dominic Elm, Principal Consultant at Thoughtworks
 
-> "The best tools feel like extensions of ourselves, not obstacles to overcome." - Kent C. Dodds
+> "The best tools feel like extensions of ourselves, not obstacles to overcome." - Kent C. Dodds, Software Engineer and Educator at KCD.dev
 
 ---
 
