@@ -71,6 +71,12 @@ My journey to a more sustainable coding experience
 - Cognitive momentum is easily disrupted
 - Context switching is the enemy of flow
 
+> **Sean Parker:** "Hey, man—"  
+> **Mark Zuckerberg:** "He's wired in."  
+> **Sean Parker:** "What?"  
+> **Mark Zuckerberg:** "He's wired in."  
+> — The Social Network (2010)
+
 ---
 
 ## Ergonomics & Flow State
