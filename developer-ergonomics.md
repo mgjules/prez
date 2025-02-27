@@ -6,6 +6,8 @@ date: 2025-02-27
 
 # Developer Ergonomics
 
+<!-- jump_to_middle -->
+
 My journey to a more sustainable coding experience
 
 ---
@@ -22,6 +24,8 @@ My journey to a more sustainable coding experience
 
 ## What is Developer Ergonomics?
 
+<!-- pause -->
+
 - Science of designing the developer experience for comfort and efficiency
 - Focuses on reducing physical and mental strain
 - Personal adaptations to optimize your workflow
@@ -33,6 +37,8 @@ My journey to a more sustainable coding experience
 
 ## Why Developer Ergonomics Matters
 
+<!-- pause -->
+
 - Prevents physical injuries that sideline careers (NIOSH, 2019)
 - RSI affects up to 30% of developers (Bureau of Labor Statistics, 2020)
 - Reduces mental fatigue through optimized workflows (Microsoft Research, 2021)
@@ -43,18 +49,22 @@ My journey to a more sustainable coding experience
 
 ## Before & After: My Productivity Metrics
 
-| Metric | Before | After | Improvement |
-| --- | --- | --- | --- |
-| Time to enter flow state | 25-30 min | 5-10 min | 70% faster |
-| Hours in flow per day | 1-2 hours | 3-4 hours | 100% increase |
-| Context switches per hour | 8-10 | 3-4 | 60% reduction |
-| RSI symptoms | Weekly | Almost never | 90% reduction |
-| End-of-day mental fatigue | High (7/10) | Low (3/10) | 60% reduction |
-| Time spent debugging env issues | 5-6 hrs/week | <1 hr/week | 80% reduction |
+<!-- pause -->
+
+| Metric                          | Before       | After        | Improvement   |
+| ------------------------------- | ------------ | ------------ | ------------- |
+| Time to enter flow state        | 25-30 min    | 5-10 min     | 70% faster    |
+| Hours in flow per day           | 1-2 hours    | 3-4 hours    | 100% increase |
+| Context switches per hour       | 8-10         | 3-4          | 60% reduction |
+| RSI symptoms                    | Weekly       | Almost never | 90% reduction |
+| End-of-day mental fatigue       | High (7/10)  | Low (3/10)   | 60% reduction |
+| Time spent debugging env issues | 5-6 hrs/week | <1 hr/week   | 80% reduction |
 
 ---
 
 ## My Physical Setup Journey
+
+<!-- pause -->
 
 - Started with terrible posture, now follow Cornell guidelines
 - Discovered the "right height" monitor setup makes a huge difference
@@ -65,6 +75,8 @@ My journey to a more sustainable coding experience
 ---
 
 ## How I Transformed My Workflow
+
+<!-- pause -->
 
 - Cut my context switching in half with better tool integration
 - Organized my digital workspace like a chef's mise en place
@@ -77,6 +89,8 @@ My journey to a more sustainable coding experience
 
 ## The Flow State
 
+<!-- pause -->
+
 - Mental state of complete immersion and focus (Csikszentmihalyi, "Flow", 1990)
 - Takes ~23 minutes to enter after interruption (Mark et al., UC Irvine, 2005)
 - Up to 500% productivity increase (McKinsey study, 2013)
@@ -84,19 +98,29 @@ My journey to a more sustainable coding experience
 - Cognitive momentum is easily disrupted (American Psychological Association, 2019)
 - Context switching is the enemy of flow (Journal of Experimental Psychology, 2018)
 
+<!-- pause -->
+
+<!-- incremental_lists: true -->
+
 > **Sean Parker:** "Hey, man—"  
 > **Mark Zuckerberg:** "He's wired in."  
 > **Sean Parker:** "What?"  
 > **Mark Zuckerberg:** "He's wired in."  
 > — The Social Network (2010)
 
+<!-- pause -->
+
 > "Frequent experiences of flow state at work lead to higher productivity, innovation, and employee development. Similarly, studies have shown that developers who enjoy their work perform better and produce higher-quality products. Interruptions and delays—which relate to the feedback loops dimension—are important factors that hinder a developer's ability to experience flow state. Other factors include maintaining autonomy over work structure, having clear team and project goals, and engaging in stimulating and challenging tasks." — DevEX: What Actually Drives Productivity
+
+<!-- pause -->
 
 **Recommended Reading:** [The Importance of Flow](https://microservices.io/post/architecture/2025/02/23/the-importance-of-flow.html)
 
 ---
 
 ## Ergonomics & Flow State
+
+<!-- pause -->
 
 - Proper ergonomics reduces barriers to entering flow (ACM CHI Conference, 2021)
 - Reduces mental/physical fatigue that disrupts flow (Ergonomics Journal, 2019)
@@ -111,23 +135,25 @@ My journey to a more sustainable coding experience
 
 > "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be." - Andrew Hunt & David Thomas, The Pragmatic Programmer ([Source](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/))
 
-| Category | Tools |
-| --- | --- |
-| Navigation | fzf, ripgrep, fd, zoxide, autojump |
-| Highly Customizable Editors | Neovim, Emacs, VSCode, Sublime Text |
-| Code Editors | Helix, Kakoune, Lapce, Nova |
-| Terminal | Kitty, Alacritty, Wezterm, iTerm2 |
-| Git | Lazygit, Tig, Delta, GitUI, GitHub CLI |
-| Shell | Zsh, Fish, PowerShell, Nushell |
-| AI Models for Programming | Claude 3.7 Sonnet, GPT-4o, Claude 3 Opus, DeepSeek Coder, CodeLlama |
-| AI Agents | Claude Code, GitHub Copilot, Continue |
-| Window Management | Rectangle, yabai, i3wm, Amethyst |
-| Keyboard | QMK/ZMK firmware, AutoHotkey, Karabiner-Elements |
-| Time Management | Pomodoro timers, Focus app, Time Out |
+| Category                    | Tools                                                               |
+| --------------------------- | ------------------------------------------------------------------- |
+| Navigation                  | fzf, ripgrep, fd, zoxide, autojump                                  |
+| Highly Customizable Editors | Neovim, Emacs, VSCode, Sublime Text                                 |
+| Code Editors                | Helix, Kakoune, Lapce, Nova                                         |
+| Terminal                    | Kitty, Alacritty, Wezterm, iTerm2                                   |
+| Git                         | Lazygit, Tig, Delta, GitUI, GitHub CLI                              |
+| Shell                       | Zsh, Fish, PowerShell, Nushell                                      |
+| AI Models for Programming   | Claude 3.7 Sonnet, GPT-4o, Claude 3 Opus, DeepSeek Coder, CodeLlama |
+| AI Agents                   | Claude Code, GitHub Copilot, Continue                               |
+| Window Management           | Rectangle, yabai, i3wm, Amethyst                                    |
+| Keyboard                    | QMK/ZMK firmware, AutoHotkey, Karabiner-Elements                    |
+| Time Management             | Pomodoro timers, Focus app, Time Out                                |
 
 ---
 
 ## My Toolkit
+
+<!-- pause -->
 
 - Kitty - GPU-accelerated terminal emulator
 - Neovim - Modal editing for reduced hand movement
@@ -140,6 +166,8 @@ My journey to a more sustainable coding experience
 
 ## Terminal-Centric Workflow
 
+<!-- pause -->
+
 - Reduced mouse dependence
 - Custom keybindings for common actions
 - Text interfaces often require less cognitive load
@@ -150,6 +178,10 @@ My journey to a more sustainable coding experience
 
 # Demo
 
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+
 ```
 # Workflow demonstration
 1. Project navigation with fzf
@@ -158,9 +190,17 @@ My journey to a more sustainable coding experience
 4. Claude Code for AI pair programming
 ```
 
+<!-- column: 1 -->
+
+![](./assets/suprise-mf-sfw.gif)
+
+<!-- reset_layout -->
+
 ---
 
 ## Start Your Own Journey Today
+
+<!-- pause -->
 
 - Those keyboard shortcuts you keep avoiding? Learn 3 new ones this week
 - Your future self will thank you for setting up a dotfiles repo now
@@ -172,6 +212,8 @@ My journey to a more sustainable coding experience
 
 ## My Multi-OS Adventure
 
+<!-- pause -->
+
 - I've stopped fighting OS wars - ergonomics transcends platforms
 - Found ways around macOS, Linux and Windows quirks with the right tools
 - Now I feel at home whether on my work Mac or personal Arch setup
@@ -182,12 +224,21 @@ My journey to a more sustainable coding experience
 
 ## My Most Important Lesson
 
+<!-- pause -->
+
 > "I realized ergonomics isn't about coding faster; it's about coding for decades to come."
 
 ---
+
+<!-- jump_to_middle -->
 
 # Questions?
 
 ---
 
+<!-- jump_to_middle -->
+
 # Thank you
+
+---
+

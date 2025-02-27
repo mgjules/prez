@@ -212,7 +212,7 @@ Stay away from general purpose CV. Tailor it to match the industry or sub-field 
 
 Self-market yourself!
 
-![why you?](meme-why-you.jpg)
+![why you?](assets/meme-why-you.jpg)
 
 <!--
 Sometimes we are too humble and do not put ourselves in the best light.
@@ -306,7 +306,7 @@ In essence, you are helping the interviewer connect the dots.
 
 Tailor!
 
-<img src="/tailor-wick.jpg" alt="Tailor Mr Wick" width="500" />
+<img src="/assets/tailor-wick.jpg" alt="Tailor Mr Wick" width="500" />
 
 <!--
 Don't wanna repeat myself but I want to get this through.
@@ -422,7 +422,7 @@ Nobody knows you better than yourself and stumbling when relating it can come of
 
 Listen.
 
-<img src="/objection.gif" alt="Objection" width="300" />
+<img src="/assets/objection.gif" alt="Objection" width="300" />
 
 <!--
 Don't jump to conclusions and wait to get the full picture and understanding before answering.
@@ -448,8 +448,10 @@ Be the person who you want to work with at the end of the day.
 
 ---
 
-<img src="/thatsallfolks.gif" alt="That's all folks" width="600" />
+<img src="/assets/thatsallfolks.gif" alt="That's all folks" width="600" />
 
 ---
 
 ## Q&A
+
+---
