@@ -131,7 +131,7 @@ Ergonomic Tools
 | Navigation                  | fzf, ripgrep, fd, zoxide, autojump                                  |
 | Highly Customizable Editors | Neovim, Emacs, VSCode, Sublime Text                                 |
 | Code Editors                | Helix, Kakoune, Lapce, Nova                                         |
-| Terminal                    | Warp, Kitty, Alacritty, Wezterm, iTerm2                             |
+| Terminal                    | Warp, Kitty, Alacritty, Wezterm, iTerm2, GhostTTY                   |
 | Git                         | Lazygit, Tig, Delta, GitUI, GitHub CLI                              |
 | Shell                       | Zsh, Fish, PowerShell, Nushell                                      |
 | AI Models for Programming   | Claude 3.7 Sonnet, GPT-4o, Claude 3 Opus, DeepSeek Coder, CodeLlama |
