@@ -1,6 +1,12 @@
+---
+title: Stand out from the crowd
+author: Mike
+date: 2023-05-20
+---
+
 # **Stand out from the crowd**
 
-<p class="text-center">Tips to improve your CV</p>
+Tips to improve your CV
 
 <!--
 - Present myself

@@ -1,3 +1,9 @@
+---
+title: Stand out from the crowd
+author: Mike
+date: 2023-04-29
+---
+
 # **Stand out from the crowd**
 
 Tips to improve your CV

@@ -1,3 +1,9 @@
+---
+title: Developer Ergonomics
+author: Mike
+date: 2025-02-27
+---
+
 # Developer Ergonomics
 
 My journey to a more sustainable coding experience

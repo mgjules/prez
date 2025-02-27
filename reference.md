@@ -1,6 +1,6 @@
-# Welcome to Slides
+# Welcome to Presenterm
 
-A terminal based presentation tool
+A terminal-based presentation tool
 
 ```go
 package main
@@ -85,3 +85,35 @@ Some stuff
 
 Some other stuff
 ```
+
+---
+
+# Presenterm Features
+
+You can use YAML frontmatter at the beginning of your presentation:
+
+```yaml
+---
+author: Your Name
+title: Presentation Title
+date: 2025-02-27
+---
+```
+
+---
+
+# Customization
+
+Presenterm supports themes and custom colors that can be defined in a config file.
+
+---
+
+# Slide Transitions
+
+Presenterm supports different slide transition effects that can be configured.
+
+---
+
+# Terminal Fidelity
+
+Enjoy true terminal colors and Unicode support

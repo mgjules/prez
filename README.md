@@ -1,24 +1,24 @@
 # prez
 
-My presentation slides using [slides](https://github.com/maaslalani/slides), a terminal-based presentation tool.
+My presentation slides using [presenterm](https://github.com/mfontanini/presenterm), a terminal-based presentation tool.
 
 ## About
 
-This repository contains markdown-based presentations on various software development topics. All presentations are designed to be viewed with the slides tool.
+This repository contains markdown-based presentations on various software development topics. All presentations are designed to be viewed with the presenterm tool.
 
 ## Installation
 
-To view these presentations, install slides:
+To view these presentations, install presenterm:
 
 ```bash
-# Using Go
-go install github.com/maaslalani/slides@latest
+# Using Cargo
+cargo install presenterm
 
 # Using Homebrew
-brew install slides
+brew install presenterm
 
-# Using Arch Linux
-yay -S slides
+# Using Arch Linux (AUR)
+yay -S presenterm
 ```
 
 ## Usage
@@ -26,22 +26,22 @@ yay -S slides
 To view a presentation:
 
 ```bash
-slides presentation-file.md
+presenterm presentation-file.md
 ```
 
 For example:
 
 ```bash
-slides developer-ergonomics.md
+presenterm developer-ergonomics.md
 ```
 
 ### Keyboard Controls
 
-- <kbd>→</kbd> / <kbd>Space</kbd>: Next slide
-- <kbd>←</kbd> / <kbd>Backspace</kbd>: Previous slide
-- <kbd>q</kbd>: Quit
+- <kbd>→</kbd> / <kbd>Space</kbd> / <kbd>Enter</kbd> / <kbd>n</kbd>: Next slide
+- <kbd>←</kbd> / <kbd>Backspace</kbd> / <kbd>p</kbd>: Previous slide
+- <kbd>q</kbd> / <kbd>Esc</kbd>: Quit
 - <kbd>r</kbd>: Reload presentation
-- <kbd>?</kbd>: Help
+- <kbd>?</kbd> / <kbd>h</kbd>: Help
 
 ## Sample Presentations
 
@@ -62,5 +62,17 @@ Content for first slide
 # Slide 2
 
 Content for second slide
+```
+
+You can also use YAML frontmatter at the beginning of your presentation to customize options:
+
+```markdown
+---
+author: Your Name
+title: Presentation Title
+---
+
+# First Slide
+Content goes here
 ```
 
