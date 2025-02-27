@@ -6,15 +6,17 @@ theme:
   name: tokyonight-storm
 ---
 
-# Developer Ergonomics
+Developer Ergonomics
+---
 
 <!-- jump_to_middle -->
 
 My journey to a more sustainable coding experience
 
----
+<!-- end_slide -->
 
-## Who am I?
+Who am I?
+---
 
 - Software engineer @ Livestorm
 - Been in the game for about 16 years now
@@ -22,9 +24,10 @@ My journey to a more sustainable coding experience
 - Neovim enthusiast
 - I use Arch btw
 
----
+<!-- end_slide -->
 
-## What is Developer Ergonomics?
+What is Developer Ergonomics?
+---
 
 <!-- pause -->
 
@@ -35,9 +38,10 @@ My journey to a more sustainable coding experience
 - The intersection of human factors and software development
 - Making technology adapt to humans, not humans to technology
 
----
+<!-- end_slide -->
 
-## Why Developer Ergonomics Matters
+Why Developer Ergonomics Matters
+---
 
 <!-- pause -->
 
@@ -49,7 +53,10 @@ My journey to a more sustainable coding experience
 - Creates a healthier relationship with technology (ACM Digital Health Study, 2022)
 - Focuses on career longevity rather than short-term output (Stack Overflow Developer Survey, 2023)
 
-## Before & After: My Productivity Metrics
+<!-- pause -->
+
+Before & After: My Productivity Metrics
+---
 
 <!-- pause -->
 
@@ -62,9 +69,10 @@ My journey to a more sustainable coding experience
 | End-of-day mental fatigue       | High (7/10)  | Low (3/10)   | 60% reduction |
 | Time spent debugging env issues | 5-6 hrs/week | <1 hr/week   | 80% reduction |
 
----
+<!-- end_slide -->
 
-## My Physical Setup Journey
+My Physical Setup Journey
+---
 
 <!-- pause -->
 
@@ -74,9 +82,10 @@ My journey to a more sustainable coding experience
 - Learned to take movement breaks every 30 minutes (saved my back!)
 - Found that natural lighting dramatically reduces eye strain
 
----
+<!-- end_slide -->
 
-## How I Transformed My Workflow
+How I Transformed My Workflow
+---
 
 <!-- pause -->
 
@@ -87,9 +96,10 @@ My journey to a more sustainable coding experience
 - Set up instant access to docs and references I need daily
 - Created the same comfortable environment on all my machines
 
----
+<!-- end_slide -->
 
-## The Flow State
+The Flow State
+---
 
 <!-- pause -->
 
@@ -118,9 +128,10 @@ My journey to a more sustainable coding experience
 
 **Recommended Reading:** [The Importance of Flow](https://microservices.io/post/architecture/2025/02/23/the-importance-of-flow.html)
 
----
+<!-- end_slide -->
 
-## Ergonomics & Flow State
+Ergonomics & Flow State
+---
 
 <!-- pause -->
 
@@ -131,9 +142,10 @@ My journey to a more sustainable coding experience
 - Well-designed environment minimizes flow-breaking friction (Nielsen Norman Group, 2020)
 - Protects against unnecessary context shifts (Microsoft Productivity Research, 2022)
 
----
+<!-- end_slide -->
 
-## Ergonomic Tools
+Ergonomic Tools
+---
 
 > "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be." - Andrew Hunt & David Thomas, The Pragmatic Programmer ([Source](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/))
 
@@ -151,9 +163,10 @@ My journey to a more sustainable coding experience
 | Keyboard                    | QMK/ZMK firmware, AutoHotkey, Karabiner-Elements                    |
 | Time Management             | Pomodoro timers, Focus app, Time Out                                |
 
----
+<!-- end_slide -->
 
-## My Toolkit
+My Toolkit
+---
 
 <!-- pause -->
 
@@ -164,9 +177,10 @@ My journey to a more sustainable coding experience
 - Claude 3.7 Sonnet - AI model for programming assistance
 - Claude Code - AI pair programmer in the terminal
 
----
+<!-- end_slide -->
 
-## Terminal-Centric Workflow
+Terminal-Centric Workflow
+---
 
 <!-- pause -->
 
@@ -176,9 +190,10 @@ My journey to a more sustainable coding experience
 - Consistent experience across systems
 - Terminal applications often use fewer resources
 
----
+<!-- end_slide -->
 
-# Demo Time
+Demo Time
+---
 
 <!-- column_layout: [1, 1] -->
 
@@ -198,9 +213,10 @@ My journey to a more sustainable coding experience
 
 <!-- reset_layout -->
 
----
+<!-- end_slide -->
 
-## Start Your Own Journey Today
+Start Your Own Journey Today
+---
 
 <!-- pause -->
 
@@ -210,9 +226,10 @@ My journey to a more sustainable coding experience
 - Try the Pomodoro technique - it changed how I work
 - Master one tool that sparks joy rather than dabbling in ten
 
----
+<!-- end_slide -->
 
-## My Multi-OS Adventure
+My Multi-OS Adventure
+---
 
 <!-- pause -->
 
@@ -222,24 +239,27 @@ My journey to a more sustainable coding experience
 - Your muscle memory and workflow patterns can travel with you
 - I can recreate my experience anywhere with a few config files
 
----
+<!-- end_slide -->
 
-## My Most Important Lesson
+My Most Important Lesson
+---
 
 <!-- pause -->
 
 > "I realized ergonomics isn't about coding faster; it's about coding for decades to come."
 
----
+<!-- end_slide -->
 
 <!-- jump_to_middle -->
 
-# Questions?
-
+Questions?
 ---
+
+<!-- end_slide -->
 
 <!-- jump_to_middle -->
 
-# Thank you
-
+Thank you
 ---
+
+<!-- end_slide -->
