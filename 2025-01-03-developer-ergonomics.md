@@ -102,7 +102,8 @@ The Flow State
 
 <!-- pause -->
 
-**Recommended Reading:** [The Importance of Flow](https://microservices.io/post/architecture/2025/02/23/the-importance-of-flow.html)
+> [!tip]
+> [The Importance of Flow](https://microservices.io/post/architecture/2025/02/23/the-importance-of-flow.html)
 
 <!-- end_slide -->
 
@@ -171,23 +172,9 @@ Terminal-Centric Workflow
 Demo Time
 ---
 
-<!-- column_layout: [1, 1] -->
+<!-- new_lines: 10 -->
 
-<!-- column: 0 -->
-
-```
-# Workflow demonstration
-1. Project navigation with fzf
-2. File editing in Neovim
-3. Git operations with Lazygit
-4. Claude Code for AI pair programming
-```
-
-<!-- column: 1 -->
-
-![](./assets/suprise-mf-sfw.gif)
-
-<!-- reset_layout -->
+![Demo Time](./assets/demo-time.png)
 
 <!-- end_slide -->
 
@@ -238,7 +225,8 @@ My Most Important Lesson
 
 <!-- pause -->
 
-> "I realized ergonomics isn't about coding faster; it's about coding for decades to come."
+> [!tip]
+> I realized ergonomics isn't about coding faster; it's about coding for decades to come.
 
 <!-- end_slide -->
 
@@ -249,9 +237,9 @@ Questions?
 
 <!-- end_slide -->
 
-<!-- jump_to_middle -->
-
-Thank you
+Thank you!
 ---
 
-<!-- end_slide -->
+<!-- new_lines: 12 -->
+
+![That's all folks](./assets/thats-all-folks.png)
