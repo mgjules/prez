@@ -1,7 +1,9 @@
 ---
 title: Developer Ergonomics
 author: Mike
-date: 2025-02-27
+date: 2025-01-03
+theme:
+  name: tokyonight-storm
 ---
 
 # Developer Ergonomics
@@ -176,7 +178,7 @@ My journey to a more sustainable coding experience
 
 ---
 
-# Demo
+# Demo Time
 
 <!-- column_layout: [1, 1] -->
 
@@ -241,4 +243,3 @@ My journey to a more sustainable coding experience
 # Thank you
 
 ---
-
