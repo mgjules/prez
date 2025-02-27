@@ -1,19 +1,11 @@
 ---
 title: Developer Ergonomics
 author: Mike
+sub_title: My journey to a more sustainable coding experience
 date: 2025-01-03
 theme:
   name: tokyonight-storm
 ---
-
-Developer Ergonomics
----
-
-<!-- jump_to_middle -->
-
-My journey to a more sustainable coding experience
-
-<!-- end_slide -->
 
 Who am I?
 ---
@@ -52,22 +44,6 @@ Why Developer Ergonomics Matters
 - Shortens recovery time between deep work sessions (Cal Newport, "Deep Work", 2016)
 - Creates a healthier relationship with technology (ACM Digital Health Study, 2022)
 - Focuses on career longevity rather than short-term output (Stack Overflow Developer Survey, 2023)
-
-<!-- pause -->
-
-Before & After: My Productivity Metrics
----
-
-<!-- pause -->
-
-| Metric                          | Before       | After        | Improvement   |
-| ------------------------------- | ------------ | ------------ | ------------- |
-| Time to enter flow state        | 25-30 min    | 5-10 min     | 70% faster    |
-| Hours in flow per day           | 1-2 hours    | 3-4 hours    | 100% increase |
-| Context switches per hour       | 8-10         | 3-4          | 60% reduction |
-| RSI symptoms                    | Weekly       | Almost never | 90% reduction |
-| End-of-day mental fatigue       | High (7/10)  | Low (3/10)   | 60% reduction |
-| Time spent debugging env issues | 5-6 hrs/week | <1 hr/week   | 80% reduction |
 
 <!-- end_slide -->
 
@@ -212,6 +188,22 @@ Demo Time
 ![](./assets/suprise-mf-sfw.gif)
 
 <!-- reset_layout -->
+
+<!-- end_slide -->
+
+Before & After: My Productivity Metrics
+---
+
+<!-- pause -->
+
+| Metric                          | Before       | After        | Improvement   |
+| ------------------------------- | ------------ | ------------ | ------------- |
+| Time to enter flow state        | 25-30 min    | 5-10 min     | 70% faster    |
+| Hours in flow per day           | 1-2 hours    | 3-4 hours    | 100% increase |
+| Context switches per hour       | 8-10         | 3-4          | 60% reduction |
+| RSI symptoms                    | Weekly       | Almost never | 90% reduction |
+| End-of-day mental fatigue       | High (7/10)  | Low (3/10)   | 60% reduction |
+| Time spent debugging env issues | 5-6 hrs/week | <1 hr/week   | 80% reduction |
 
 <!-- end_slide -->
 
