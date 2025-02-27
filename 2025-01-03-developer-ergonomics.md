@@ -23,11 +23,8 @@ What is Developer Ergonomics?
 
 <!-- pause -->
 
-- Science of designing the developer experience for comfort and efficiency
-- Focuses on reducing physical and mental strain
-- Personal adaptations to optimize your workflow
-- Customizing tools and environment to fit your unique needs
-- The intersection of human factors and software development
+- Science of designing workspaces and tools for developer comfort and efficiency
+- Reducing physical and mental strain through personalized optimizations
 - Making technology adapt to humans, not humans to technology
 
 <!-- end_slide -->
@@ -37,13 +34,9 @@ Why Developer Ergonomics Matters
 
 <!-- pause -->
 
-- Prevents physical injuries that sideline careers (NIOSH, 2019)
-- RSI affects up to 30% of developers (Bureau of Labor Statistics, 2020)
-- Reduces mental fatigue through optimized workflows (Microsoft Research, 2021)
-- Enhances productivity by eliminating friction points (DeMarco & Lister, "Peopleware", 2013)
-- Shortens recovery time between deep work sessions (Cal Newport, "Deep Work", 2016)
-- Creates a healthier relationship with technology (ACM Digital Health Study, 2022)
-- Focuses on career longevity rather than short-term output (Stack Overflow Developer Survey, 2023)
+- Prevents physical injuries and RSI that affect 30% of developers (BLS, 2020)
+- Enhances productivity and reduces mental fatigue by eliminating workflow friction
+- Extends career longevity by creating a healthier relationship with technology
 
 <!-- end_slide -->
 
@@ -52,11 +45,9 @@ My Physical Setup Journey
 
 <!-- pause -->
 
-- Started with terrible posture, now follow Cornell guidelines
-- Discovered the "right height" monitor setup makes a huge difference
-- Switched to ergonomic keyboard after wrist pain warning signs
-- Learned to take movement breaks every 30 minutes (saved my back!)
-- Found that natural lighting dramatically reduces eye strain
+- Fixed posture issues with Cornell guidelines and strategic monitor placement
+- Prevented wrist problems with ergonomic keyboards and regular movement breaks
+- Reduced eye strain through natural lighting and workstation optimization
 
 <!-- end_slide -->
 
@@ -65,12 +56,9 @@ How I Transformed My Workflow
 
 <!-- pause -->
 
-- Cut my context switching in half with better tool integration
-- Organized my digital workspace like a chef's mise en place
-- Freed my hands from mouse dependence through keyboard mastery
-- Automated the boring stuff (because life's too short!)
-- Set up instant access to docs and references I need daily
-- Created the same comfortable environment on all my machines
+- Reduced context switching by organizing my digital workspace like a chef's mise en place
+- Freed my hands with keyboard mastery and automated repetitive tasks
+- Created consistent environments with instant access to tools across all machines
 
 <!-- end_slide -->
 
@@ -79,12 +67,9 @@ The Flow State
 
 <!-- pause -->
 
-- Mental state of complete immersion and focus (Csikszentmihalyi, "Flow", 1990)
-- Takes ~23 minutes to enter after interruption (Mark et al., UC Irvine, 2005)
-- Up to 500% productivity increase (McKinsey study, 2013)
-- Requires minimizing distractions (Harvard Business Review, "Productivity in the Age of Distraction", 2020)
-- Cognitive momentum is easily disrupted (American Psychological Association, 2019)
-- Context switching is the enemy of flow (Journal of Experimental Psychology, 2018)
+- Mental state of complete immersion with up to 500% productivity increase (McKinsey, 2013)
+- Takes ~23 minutes to enter after interruption and is easily disrupted (UC Irvine, 2005)
+- Requires minimizing distractions and context switches (HBR, 2020)
 
 <!-- pause -->
 
@@ -112,12 +97,9 @@ Ergonomics & Flow State
 
 <!-- pause -->
 
-- Proper ergonomics reduces barriers to entering flow (ACM CHI Conference, 2021)
-- Reduces mental/physical fatigue that disrupts flow (Ergonomics Journal, 2019)
-- Creates reliable triggers for entering flow state (James Clear, "Atomic Habits", 2018)
-- Familiar, comfortable tools become extensions of thought (Don Norman, "The Design of Everyday Things", 2013)
-- Well-designed environment minimizes flow-breaking friction (Nielsen Norman Group, 2020)
-- Protects against unnecessary context shifts (Microsoft Productivity Research, 2022)
+- Proper ergonomics creates reliable triggers and reduces barriers to entering flow (CHI, 2021)
+- Comfortable tools become extensions of thought while reducing mental/physical fatigue
+- Well-designed environments minimize flow-breaking friction and context shifts
 
 <!-- end_slide -->
 
@@ -161,11 +143,9 @@ Terminal-Centric Workflow
 
 <!-- pause -->
 
-- Reduced mouse dependence
-- Custom keybindings for common actions
-- Text interfaces often require less cognitive load
-- Consistent experience across systems
-- Terminal applications often use fewer resources
+- Reduced mouse dependence with custom keybindings for common actions
+- Text interfaces require less cognitive load and use fewer system resources
+- Provides consistent experience across all operating systems
 
 <!-- end_slide -->
 
@@ -199,11 +179,9 @@ Start Your Own Journey Today
 
 <!-- pause -->
 
-- Those keyboard shortcuts you keep avoiding? Learn 3 new ones this week
-- Your future self will thank you for setting up a dotfiles repo now
-- That chair you sit in 8+ hours a day? It's worth the investment!
-- Try the Pomodoro technique - it changed how I work
-- Master one tool that sparks joy rather than dabbling in ten
+- Learn keyboard shortcuts and invest in quality equipment you use daily
+- Create a dotfiles repo and master one tool that sparks joy rather than dabbling in ten
+- Try the Pomodoro technique to manage focus and transform your work rhythm
 
 <!-- end_slide -->
 
@@ -212,11 +190,9 @@ My Multi-OS Adventure
 
 <!-- pause -->
 
-- I've stopped fighting OS wars - ergonomics transcends platforms
-- Found ways around macOS, Linux and Windows quirks with the right tools
-- Now I feel at home whether on my work Mac or personal Arch setup
-- Your muscle memory and workflow patterns can travel with you
-- I can recreate my experience anywhere with a few config files
+- Ergonomics transcends platforms - I've stopped fighting OS wars
+- I feel at home on any system by using consistent tools across Mac, Linux and Windows
+- Portable configs let workflow patterns and muscle memory travel with me
 
 <!-- end_slide -->
 
