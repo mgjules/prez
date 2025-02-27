@@ -26,13 +26,13 @@ yay -S presenterm
 To view a presentation:
 
 ```bash
-presenterm presentation-file.md
+presenterm --config-file config.yaml presentation-file.md
 ```
 
 For example:
 
 ```bash
-presenterm developer-ergonomics.md
+presenterm --config-file config.yaml 2025-01-03-developer-ergonomics.md
 ```
 
 ### Keyboard Controls
@@ -45,8 +45,9 @@ presenterm developer-ergonomics.md
 
 ## Sample Presentations
 
-- [Developer Ergonomics](developer-ergonomics.md) - Optimizing workflow and reducing fatigue
+- [Developer Ergonomics](2025-01-03-developer-ergonomics.md) - Optimizing workflow and reducing fatigue
 - [PDE (Personalized Development Environment)](2024-05-18-pde.md) - Customizing your development tools
+- [Stand Out from the Crowd](2023-29-04-stand-out-from-the-crowd.md) - Tips to improve your CV
 
 ## Creating Presentations
 
@@ -70,9 +71,23 @@ You can also use YAML frontmatter at the beginning of your presentation to custo
 ---
 author: Your Name
 title: Presentation Title
+date: 2025-01-03
+theme:
+  name: dark
 ---
 
 # First Slide
 Content goes here
 ```
+
+### Custom Configuration
+
+This repository includes a `config.yaml` file with custom settings for presenterm:
+
+- Dark theme by default
+- Keyboard shortcuts
+- Image protocol settings
+- Code snippet execution options
+
+Always use the `--config-file` flag to ensure consistent presentation appearance.
 
