@@ -73,7 +73,7 @@ author: Your Name
 title: Presentation Title
 date: 2025-01-03
 theme:
-  name: dark
+  name: tokyonight-storm
 ---
 
 # First Slide
@@ -84,7 +84,7 @@ Content goes here
 
 This repository includes a `config.yaml` file with custom settings for presenterm:
 
-- Dark theme by default
+- Tokyo Night Storm theme by default
 - Keyboard shortcuts
 - Image protocol settings
 - Code snippet execution options
