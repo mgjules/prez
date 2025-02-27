@@ -108,19 +108,19 @@ Ergonomic Tools
 
 > "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be." - Andrew Hunt & David Thomas, The Pragmatic Programmer ([Source](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/))
 
-| Category                    | Tools                                                               |
-| --------------------------- | ------------------------------------------------------------------- |
-| Navigation                  | fzf, ripgrep, fd, zoxide, autojump                                  |
-| Highly Customizable Editors | Neovim, Emacs, VSCode, Sublime Text                                 |
-| Code Editors                | Helix, Kakoune, Lapce, Nova                                         |
-| Terminal                    | Warp, Kitty, Alacritty, Wezterm, iTerm2, GhostTTY                   |
-| Git                         | Lazygit, Tig, Delta, GitUI, GitHub CLI                              |
-| Shell                       | Zsh, Fish, PowerShell, Nushell                                      |
-| AI Models for Programming   | Claude 3.7 Sonnet, GPT-4o, Claude 3 Opus, DeepSeek Coder, CodeLlama |
-| AI Agents                   | Claude Code, GitHub Copilot, Continue                               |
-| Window Management           | Rectangle, yabai, i3wm, Amethyst                                    |
-| Keyboard                    | QMK/ZMK firmware, AutoHotkey, Karabiner-Elements                    |
-| Time Management             | Pomodoro timers, Focus app, Time Out                                |
+| Category                    | Tools                                                                  |
+| --------------------------- | ---------------------------------------------------------------------- |
+| Navigation                  | fzf, ripgrep, fd, zoxide, autojump, broot, ranger, bat                 |
+| Highly Customizable Editors | Neovim, Emacs, VSCode, Sublime Text, JetBrains IDEs, Vim, Atom         |
+| Code Editors                | Helix, Kakoune, Lapce, Nova, Zed, Notepad++, CudaText                  |
+| Terminal                    | Warp, Kitty, Alacritty, Wezterm, iTerm2, GhostTTY, Hyper, Terminator, Tabby |
+| Git                         | Lazygit, Tig, Delta, GitUI, GitHub CLI, Sourcetree, GitKraken, Fork    |
+| Shell                       | Zsh, Fish, PowerShell, Nushell, Bash, Elvish, xonsh                    |
+| AI Models for Programming   | Claude 3.7 Sonnet, GPT-4o, Claude 3 Opus, DeepSeek Coder, CodeLlama, Gemini Pro, Llama 3, Mistral |
+| AI Agents                   | Claude Code, GitHub Copilot, Continue, Codeium, Tabnine, Replit Ghostwriter |
+| Window Management           | Rectangle, yabai, i3wm, Amethyst, Divvy, Magnet, sway                  |
+| Keyboard                    | QMK/ZMK firmware, AutoHotkey, Karabiner-Elements, Keyboard Maestro, BetterTouchTool, kmonad |
+| Time Management             | Pomodoro timers, Focus app, Time Out, Forest, RescueTime, Toggl         |
 
 <!-- end_slide -->
 
