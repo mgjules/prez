@@ -23,6 +23,11 @@ func main() {
 	go ns.Start()
 	defer ns.Shutdown()
 
+	if !ns.ReadyForConnections(5 * time.Second) {
+		slog.Error("nats server not ready for connections")
+		return
+	}
+
 	// In-process connection (no TCP)
 	nc, err := nats.Connect(
 		ns.ClientURL(),
@@ -78,7 +83,7 @@ func main() {
 	// Place an order
 	if err = nc.Publish(
 		"order.create",
-		[]byte(`{"user_id": "`+user.ID.String()+`", "product_id": "`+product.ID.String()+`", "quantity": 1}`),
+		[]byte(`{"user_id": "`+user.ID.String()+`", "product_id": "`+product.ID.String()+`", "quantity": 10}`),
 	); err != nil {
 		slog.Error("failed to place order", "err", err)
 		return

@@ -120,7 +120,7 @@ func (o *OrderModule) handleCreateOrder() nats.MsgHandler {
 			return
 		}
 		if product.Stock < req.Quantity {
-			slog.Error("not enough stock", "stock", product.Stock, "quantity", req.Quantity)
+			slog.Error("not enough stock", "product", product, "quantity", req.Quantity)
 			return
 		}
 
@@ -135,7 +135,7 @@ func (o *OrderModule) handleCreateOrder() nats.MsgHandler {
 		}
 		o.orders[ordr.ID] = ordr
 
-		slog.Info("created order", "order", ordr)
+		slog.Info("placed order", "order", ordr)
 
 		// Publish order created event
 		orderData, err := json.Marshal(ordr)
