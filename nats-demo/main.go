@@ -112,6 +112,23 @@ func main() {
 		return
 	}
 
+	// Monitor product stock
+	if _, err := nc.Subscribe("events.product.stock.updated", func(m *nats.Msg) {
+		var product struct {
+			ID    uuid.UUID `json:"id"`
+			Name  string    `json:"name"`
+			Stock uint16    `json:"stock"`
+		}
+		if err := json.Unmarshal(m.Data, &product); err != nil {
+			slog.Error("failed to unmarshal product stock updated event", "err", err)
+			return
+		}
+		slog.Info("product stock updated", "product", product)
+	}); err != nil {
+		slog.Error("failed to subscribe to product stock updated event", "err", err)
+		return
+	}
+
 	// Place an order
 	if _, err := nc.Subscribe("events.order.created", func(m *nats.Msg) {
 		var order struct {
