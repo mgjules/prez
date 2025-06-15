@@ -77,8 +77,6 @@ func (p *ProductModule) handleCreateProduct() nats.MsgHandler {
 		p.products[prod.ID] = prod
 		p.mu.Unlock()
 
-		slog.Info("created product", "product", prod)
-
 		// Publish product created event
 		prodData, err := json.Marshal(prod)
 		if err != nil {
@@ -197,8 +195,6 @@ func (p *ProductModule) handlePaymentSuccess() nats.MsgHandler {
 		}
 		prod.Stock -= order.Quantity
 		p.products[prod.ID] = prod
-
-		slog.Info("updated product stock", "product", prod)
 
 		// Inform updated stock
 		prodData, err := json.Marshal(prod)

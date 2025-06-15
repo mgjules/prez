@@ -28,6 +28,8 @@ func main() {
 		return
 	}
 
+	slog.Info("nats server started")
+
 	// In-process connection (no TCP)
 	nc, err := nats.Connect(
 		ns.ClientURL(),
@@ -38,6 +40,8 @@ func main() {
 		return
 	}
 	defer nc.Close()
+
+	slog.Info("connected to nats server")
 
 	// Start modules
 	userModule := NewUserModule(nc)
@@ -53,6 +57,19 @@ func main() {
 	paymentModule.Start()
 
 	// Add a user
+	if _, err := nc.Subscribe("events.user.created", func(m *nats.Msg) {
+		var user struct {
+			ID uuid.UUID `json:"id"`
+		}
+		if err := json.Unmarshal(m.Data, &user); err != nil {
+			slog.Error("failed to unmarshal user created event", "err", err)
+			return
+		}
+		slog.Info("user created", "user", user)
+	}); err != nil {
+		slog.Error("failed to subscribe to user created event", "err", err)
+		return
+	}
 	resp, err := nc.Request("user.create", []byte(`{"name": "John Doe"}`), time.Second)
 	if err != nil {
 		slog.Error("failed to create user", "err", err)
@@ -67,6 +84,21 @@ func main() {
 	}
 
 	// Add a product
+	if _, err := nc.Subscribe("events.product.created", func(m *nats.Msg) {
+		var product struct {
+			ID    uuid.UUID `json:"id"`
+			Name  string    `json:"name"`
+			Stock uint16    `json:"stock"`
+		}
+		if err := json.Unmarshal(m.Data, &product); err != nil {
+			slog.Error("failed to unmarshal user created event", "err", err)
+			return
+		}
+		slog.Info("product added", "product", product)
+	}); err != nil {
+		slog.Error("failed to subscribe to product created event", "err", err)
+		return
+	}
 	resp, err = nc.Request("product.create", []byte(`{"name": "Widget", "stock": 100}`), time.Second)
 	if err != nil {
 		slog.Error("failed to create product", "err", err)
@@ -81,6 +113,22 @@ func main() {
 	}
 
 	// Place an order
+	if _, err := nc.Subscribe("events.order.created", func(m *nats.Msg) {
+		var order struct {
+			ID        uuid.UUID `json:"id"`
+			UserID    uuid.UUID `json:"user_id"`
+			ProductID uuid.UUID `json:"product_id"`
+			Quantity  uint16    `json:"quantity"`
+		}
+		if err := json.Unmarshal(m.Data, &order); err != nil {
+			slog.Error("failed to unmarshal order created event", "err", err)
+			return
+		}
+		slog.Info("order placed", "order", order)
+	}); err != nil {
+		slog.Error("failed to subscribe to order created event", "err", err)
+		return
+	}
 	if err = nc.Publish(
 		"order.create",
 		[]byte(`{"user_id": "`+user.ID.String()+`", "product_id": "`+product.ID.String()+`", "quantity": 10}`),
@@ -89,5 +137,25 @@ func main() {
 		return
 	}
 
-	select {}
+	sub, err := nc.SubscribeSync("events.payment.success")
+	if err != nil {
+		slog.Error("failed to subscribe to payment success event", "err", err)
+		return
+	}
+
+	msg, err := sub.NextMsg(3 * time.Second)
+	if err != nil {
+		slog.Error("failed to receive payment success event", "err", err)
+		return
+	}
+	var payment struct {
+		ID      uuid.UUID `json:"id"`
+		OrderID uuid.UUID `json:"order_id"`
+	}
+	if err := json.Unmarshal(msg.Data, &payment); err != nil {
+		slog.Error("failed to unmarshal payment success event", "err", err)
+		return
+	}
+
+	slog.Info("payment successful", "payment", payment)
 }

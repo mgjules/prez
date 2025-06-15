@@ -135,8 +135,6 @@ func (o *OrderModule) handleCreateOrder() nats.MsgHandler {
 		}
 		o.orders[ordr.ID] = ordr
 
-		slog.Info("placed order", "order", ordr)
-
 		// Publish order created event
 		orderData, err := json.Marshal(ordr)
 		if err != nil {

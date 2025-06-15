@@ -103,8 +103,6 @@ func (p *PaymentModule) handleOrderCreated() nats.MsgHandler {
 		p.payments[paym.ID] = paym
 		p.mu.Unlock()
 
-		slog.Info("payment successful", "payment", paym)
-
 		// Publish payment success event
 		paymentData, err := json.Marshal(paym)
 		if err != nil {

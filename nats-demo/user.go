@@ -66,8 +66,6 @@ func (u *UserModule) handleCreateUser() nats.MsgHandler {
 		u.users[usr.ID] = usr
 		u.mu.Unlock()
 
-		slog.Info("created user", "user", usr)
-
 		// Publish user created event
 		userData, err := json.Marshal(usr)
 		if err != nil {
