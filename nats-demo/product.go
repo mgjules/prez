@@ -39,7 +39,7 @@ func (p *ProductModule) Start() error {
 	p.nc.Subscribe("product.get", p.handleGetProduct())
 
 	// Handle payment success
-	p.nc.Subscribe("payment.success", p.handlePaymentSuccess())
+	p.nc.Subscribe("events.payment.success", p.handlePaymentSuccess())
 
 	return nil
 }
