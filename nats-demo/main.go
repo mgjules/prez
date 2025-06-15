@@ -137,12 +137,12 @@ func main() {
 		return
 	}
 
+	// Wait for payment success event
 	sub, err := nc.SubscribeSync("events.payment.success")
 	if err != nil {
 		slog.Error("failed to subscribe to payment success event", "err", err)
 		return
 	}
-
 	msg, err := sub.NextMsg(3 * time.Second)
 	if err != nil {
 		slog.Error("failed to receive payment success event", "err", err)
@@ -156,6 +156,5 @@ func main() {
 		slog.Error("failed to unmarshal payment success event", "err", err)
 		return
 	}
-
 	slog.Info("payment successful", "payment", payment)
 }
