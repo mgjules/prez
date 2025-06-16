@@ -72,6 +72,18 @@ The application will:
 6. Process payment automatically
 7. Update product stock
 
+### Example Output
+
+```bash
+2025/06/16 17:35:50 INFO nats server started
+2025/06/16 17:35:50 INFO connected to nats server
+2025/06/16 17:35:50 INFO user created user={ID:ababa8ca-a693-4475-aac5-467ae50a707d}
+2025/06/16 17:35:50 INFO product added product="{ID:fc979c80-4de4-4094-acd6-2fadfeaacb83 Name:Widget Stock:100}"
+2025/06/16 17:35:50 INFO order placed order="{ID:34aa54f1-79af-4d50-a1e6-6303897fcd80 UserID:ababa8ca-a693-4475-aac5-467ae50a707d ProductID:fc979c80-4de4-4094-acd6-2fadfeaacb83 Quantity:10}"
+2025/06/16 17:35:51 INFO payment successful payment="{ID:b0ad615c-05dd-4ad2-a5d7-9a3eaa0562bf OrderID:34aa54f1-79af-4d50-a1e6-6303897fcd80}"
+2025/06/16 17:35:51 INFO product stock updated product="{ID:fc979c80-4de4-4094-acd6-2fadfeaacb83 Name:Widget Stock:90}"
+```
+
 ## Project Structure
 
 ```
@@ -117,6 +129,18 @@ This demo illustrates:
 - Module validation and error handling
 - In-memory data management with concurrent access
 - Structured logging with Go's `slog` package
+
+## (Bonus) Challenge
+
+In some cases, the NATS connection closes before every message is processed.
+
+Example:
+
+```bash
+2025/06/16 17:35:43 ERROR failed to publish product stock updated event err="nats: connection closed" product="{ID:a929d226-2bba-4778-bed5-cfd2dc3ba9f8 Name:Widget Stock:90}"
+```
+
+How can we fix this? :thinking:
 
 ## License
 
