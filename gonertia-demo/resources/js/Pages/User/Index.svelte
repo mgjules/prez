@@ -63,9 +63,10 @@
   async function handleSubmit() {
     try {
       if (editingUser) {
-        // Update existing user - only name can be edited
+        // Update existing user - send both name and email (email is readonly but needed for backend)
         await router.patch('/users/', {
           name: formData.name,
+          email: formData.email,
           id: editingUser.id
         });
       } else {
