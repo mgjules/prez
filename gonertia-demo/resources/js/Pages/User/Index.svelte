@@ -62,13 +62,13 @@
   async function handleSubmit() {
     try {
       if (editingUser) {
-        // Update existing user
+        // Update existing user - only name can be edited
         await router.patch('/users/', {
-          ...formData,
+          name: formData.name,
           id: editingUser.id
         });
       } else {
-        // Create new user
+        // Create new user - both name and email
         await router.post('/users/', formData);
       }
       closeModal();
@@ -221,9 +221,11 @@
               <input 
                 type="email" 
                 bind:value={formData.email}
-                class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-gray-100"
                 required
+                readonly
               />
+              <p class="mt-1 text-xs text-gray-500">Email cannot be edited</p>
             </div>
             <div class="mt-6 flex justify-end space-x-3">
               <button 
