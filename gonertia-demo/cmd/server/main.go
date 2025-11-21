@@ -2,11 +2,10 @@ package main
 
 import (
 	"log"
-	"log/slog"
 	"net/http"
-	"os"
 
 	"github.com/go-chi/chi/v5"
+	"github.com/mgjules/prez/gonertia-demo/internal/user"
 	inertia "github.com/romsar/gonertia/v2"
 )
 
@@ -16,8 +15,7 @@ func main() {
 		inertia.WithSSR(),
 	)
 	if err != nil {
-		slog.Error("inertia.NewFromFile failed", "err", err)
-		os.Exit(1)
+		panic(err)
 	}
 
 	// Wrap with Vite and configure Vite-specific options
@@ -34,26 +32,36 @@ func main() {
 
 	r := chi.NewRouter()
 	r.Use(i.Middleware)
+
 	r.Get("/", index(app))
+
+	r.Route("/users", func(r chi.Router) {
+		userRepo := user.NewRepository()
+		userRepo.Seed(10)
+		userHandler := user.NewHandler(app, userRepo)
+
+		r.Get("/", userHandler.Index)
+		r.Post("/", userHandler.Create)
+		r.Patch("/", userHandler.Update)
+		r.Delete("/", userHandler.Delete)
+	})
+
 	r.Handle("/build/*", http.StripPrefix("/build/", http.FileServer(http.Dir("./public/build"))))
 
 	log.Println("listening on http://localhost:3000")
 
 	if err := http.ListenAndServe(":3000", r); err != nil {
-		slog.Error("failed to listen", "err", err)
-		os.Exit(1)
+		panic(err)
 	}
 }
 
-func index(i *inertia.ViteInstance) http.HandlerFunc {
+func index(app *inertia.ViteInstance) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		err := i.Render(w, r, "Index", inertia.Props{
+		err := app.Render(w, r, "Index", inertia.Props{
 			"text": "Inertia.js with Svelte and Go! 💙",
 		})
 		if err != nil {
-			slog.Error("render error", "err", err)
-			http.Error(w, "render error", http.StatusInternalServerError)
-			return
+			app.ShareProp("error", err.Error())
 		}
 	}
 }
