@@ -26,7 +26,8 @@
 
   // Date formatting
   function formatDate(dateValue: Date | string) {
-    return new Date(dateValue).toLocaleDateString();
+    const date = new Date(dateValue);
+    return date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
   }
 
   // Modal functions
