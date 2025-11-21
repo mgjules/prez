@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	// Bootstrap Inertia
 	i, err := inertia.NewFromFile("resources/views/app.html",
 		inertia.WithSSR(),
 	)
@@ -39,7 +40,7 @@ func main() {
 	log.Println("listening on http://localhost:3000")
 
 	if err := http.ListenAndServe(":3000", r); err != nil {
-		slog.Error("http.ListenAndServe failed", "err", err)
+		slog.Error("failed to listen", "err", err)
 		os.Exit(1)
 	}
 }
@@ -50,14 +51,9 @@ func index(i *inertia.ViteInstance) http.HandlerFunc {
 			"text": "Inertia.js with Svelte and Go! 💙",
 		})
 		if err != nil {
-			handleServerErr(w, err)
+			slog.Error("render error", "err", err)
+			http.Error(w, "render error", http.StatusInternalServerError)
 			return
 		}
 	}
-}
-
-func handleServerErr(w http.ResponseWriter, err error) {
-	log.Printf("http error: %s\n", err)
-	w.WriteHeader(http.StatusInternalServerError)
-	_, _ = w.Write([]byte("server error"))
 }

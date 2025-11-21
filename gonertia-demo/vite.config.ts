@@ -2,6 +2,8 @@ import { defineConfig } from "vite";
 import laravel from "laravel-vite-plugin";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
 import { sveltePreprocess } from "svelte-preprocess";
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineConfig({
   plugins: [
     laravel({
@@ -13,6 +15,7 @@ export default defineConfig({
     svelte({
       preprocess: [sveltePreprocess({ typescript: true })],
     }),
+    tailwindcss(),
   ],
   build: {
     manifest: true, // Generate manifest.json file
