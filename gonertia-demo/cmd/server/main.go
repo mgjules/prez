@@ -37,7 +37,7 @@ func main() {
 
 	r.Route("/users", func(r chi.Router) {
 		userRepo := user.NewRepository()
-		userRepo.Seed(10)
+		userRepo.Seed(256)
 		userHandler := user.NewHandler(app, userRepo)
 
 		r.Get("/", userHandler.Index)

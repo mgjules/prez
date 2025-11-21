@@ -3,6 +3,7 @@ package user
 import (
 	"encoding/json"
 	"net/http"
+	"slices"
 
 	inertia "github.com/romsar/gonertia/v2"
 )
@@ -35,6 +36,17 @@ func (h *handler) Index(w http.ResponseWriter, r *http.Request) {
 		h.app.ShareProp("error", err.Error())
 		return
 	}
+
+	slices.SortFunc(users, func(a, b User) int {
+		if a.UpdatedAt.Equal(b.UpdatedAt) {
+			return 0
+		}
+		if a.UpdatedAt.After(b.UpdatedAt) {
+			return -1
+		}
+		return 1
+	})
+
 	if err := h.app.Render(w, r, "User/Index", inertia.Props{
 		"users": inertia.Defer(users),
 	}); err != nil {
@@ -49,16 +61,10 @@ func (h *handler) Create(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	created, err := h.repo.Create(user)
+	_, err := h.repo.Create(user)
 	if err != nil {
 		h.app.ShareProp("error", err.Error())
 		return
-	}
-
-	if err := h.app.Render(w, r, "User/Index", inertia.Props{
-		"user_created": created,
-	}); err != nil {
-		h.app.ShareProp("error", err.Error())
 	}
 }
 
@@ -69,16 +75,10 @@ func (h *handler) Update(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	updated, err := h.repo.Update(user)
+	_, err := h.repo.Update(user)
 	if err != nil {
 		h.app.ShareProp("error", err.Error())
 		return
-	}
-
-	if err := h.app.Render(w, r, "User/Index", inertia.Props{
-		"user_updated": updated,
-	}); err != nil {
-		h.app.ShareProp("error", err.Error())
 	}
 }
 
@@ -90,12 +90,6 @@ func (h *handler) Delete(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if err := h.repo.Delete(user.ID); err != nil {
-		h.app.ShareProp("error", err.Error())
-	}
-
-	if err := h.app.Render(w, r, "User/Index", inertia.Props{
-		"user_id_deleted": user.ID,
-	}); err != nil {
 		h.app.ShareProp("error", err.Error())
 	}
 }

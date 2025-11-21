@@ -24,7 +24,7 @@ func (r *repository) Seed(n uint16) {
 			Email: gofakeit.Email(),
 		}
 
-		r.Create(user)
+		_, _ = r.Create(user)
 	}
 }
 
