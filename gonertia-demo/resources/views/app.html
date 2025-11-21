@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ vite "resources/css/app.css" }}">
-    {{ .inertiaHead }}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ .inertiaHead }}
+
+  <!-- Vite Refresh - automatically handles HMR setup for React/Preact/Vue -->
+  {{ viteRefresh }}
+
+  <!-- CSS - automatically resolves dev vs production -->
+  <link rel="stylesheet" href="{{ vite "resources/css/app.css" }}">
 </head>
 
 <body class="font-sans antialiased">
-{{ .inertia }}
-<script type="module" src="{{ vite "resources/js/app.ts" }}"></script>
+  {{ .inertia }}
+
+  <!-- Main app script - automatically resolves dev vs production -->
+  <script type="module" src="{{ vite "resources/js/app.ts" }}"></script>
 </body>
 </html>
