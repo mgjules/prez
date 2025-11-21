@@ -27,6 +27,27 @@
     email: ''
   };
 
+  // Local reactive copy of users
+  let localUsers: User[] = [];
+
+  // Sync local users with prop
+  $: localUsers = users || [];
+
+  // Handle prop updates from backend
+  $: if (user_created) {
+    localUsers = [...localUsers, user_created];
+  }
+
+  $: if (user_updated) {
+    localUsers = localUsers.map((user: User) => 
+      user.id === user_updated.id ? user_updated : user
+    );
+  }
+
+  $: if (user_id_deleted) {
+    localUsers = localUsers.filter((user: User) => user.id !== user_id_deleted);
+  }
+
   // Date formatting
   function formatDate(dateValue: Date | string) {
     const date = new Date(dateValue);
@@ -95,21 +116,6 @@
       }
     }
   }
-
-  // Handle prop updates from backend
-  $: if (user_created && Array.isArray(users)) {
-    users = [...users, user_created];
-  }
-
-  $: if (user_updated && Array.isArray(users)) {
-    users = users.map((user: User) => 
-      user.id === user_updated.id ? user_updated : user
-    );
-  }
-
-  $: if (user_id_deleted && Array.isArray(users)) {
-    users = users.filter((user: User) => user.id !== user_id_deleted);
-  }
 </script>
 
 <svelte:head>
@@ -171,7 +177,7 @@
                 </tr>
               </svelte:fragment>
 
-              {#each users as user}
+              {#each localUsers as user}
                 <tr class="hover:bg-gray-50 transition-colors">
                   <td class="px-6 py-4 whitespace-nowrap">
                     <div class="text-sm font-medium text-gray-900">{user.name}</div>
