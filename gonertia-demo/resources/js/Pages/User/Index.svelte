@@ -11,6 +11,9 @@
   };
 
   export let users: User[];
+  export let user_created: User | undefined = undefined;
+  export let user_updated: User | undefined = undefined;
+  export let user_id_deleted: string | undefined = undefined;
 
   // Modal state
   let isModalOpen = false;
@@ -91,6 +94,21 @@
         console.error('Error deleting user:', error);
       }
     }
+  }
+
+  // Handle prop updates from backend
+  $: if (user_created) {
+    users = [...users, user_created];
+  }
+
+  $: if (user_updated) {
+    users = users.map(user => 
+      user.id === user_updated.id ? user_updated : user
+    );
+  }
+
+  $: if (user_id_deleted) {
+    users = users.filter(user => user.id !== user_id_deleted);
   }
 </script>
 
