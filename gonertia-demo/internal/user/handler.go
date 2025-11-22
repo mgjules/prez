@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"slices"
 
+	"github.com/go-chi/chi/v5"
+	"github.com/google/uuid"
 	inertia "github.com/romsar/gonertia/v2"
 )
 
@@ -49,6 +51,27 @@ func (h *handler) Index(w http.ResponseWriter, r *http.Request) {
 
 	if err := h.app.Render(w, r, "User/Index", inertia.Props{
 		"users": inertia.Defer(users),
+	}); err != nil {
+		h.app.ShareProp("error", err.Error())
+	}
+}
+
+func (h *handler) Show(w http.ResponseWriter, r *http.Request) {
+	raw := chi.URLParam(r, "id")
+	id, err := uuid.Parse(raw)
+	if err != nil {
+		h.app.ShareProp("error", err.Error())
+		return
+	}
+
+	user, err := h.repo.Find(id)
+	if err != nil {
+		h.app.ShareProp("error", err.Error())
+		return
+	}
+
+	if err := h.app.Render(w, r, "User/Show", inertia.Props{
+		"user": user,
 	}); err != nil {
 		h.app.ShareProp("error", err.Error())
 	}

@@ -41,6 +41,7 @@ func main() {
 		userHandler := user.NewHandler(app, userRepo)
 
 		r.Get("/", userHandler.Index)
+		r.Get("/{id}", userHandler.Show)
 		r.Post("/", userHandler.Create)
 		r.Patch("/", userHandler.Update)
 		r.Delete("/", userHandler.Delete)

@@ -1,18 +1,17 @@
 <script lang="ts">
   import { inertia, page } from "@inertiajs/svelte";
 
-  // Navigation state
-  let currentPath = $page.url;
-
   // Navigation links
-  const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/users", label: "Users" },
+  let navLinks = [
+    { href: "/", label: "Home", active: false },
+    { href: "/users", label: "Users", active: false },
   ];
 
-  // Check if link is active
-  function isActive(href: string): boolean {
-    return currentPath === href;
+  $: {
+    navLinks.forEach((link) => {
+      link.active = link.href === $page.url;
+    });
+    navLinks = navLinks;
   }
 </script>
 
@@ -40,13 +39,11 @@
 
           <!-- Navigation Links -->
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-            {#each navLinks as link}
+            {#each navLinks as link (link.href)}
               <a
                 use:inertia
                 href={link.href}
-                class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium {isActive(
-                  link.href,
-                )
+                class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium {link.active
                   ? 'border-indigo-500 text-gray-900'
                   : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'}"
               >
