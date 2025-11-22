@@ -5,7 +5,7 @@ createInertiaApp({
   resolve: name => {
     // @ts-expect-error
     const pages = import.meta.glob("./Pages/**/*.svelte", { eager: true });
-    let page = pages[`./Pages/${name}.svelte`];
+    const page = pages[`./Pages/${name}.svelte`];
     return { default: page.default, layout: page.layout || Layout };
   },
   setup({ el, App, props }) {
