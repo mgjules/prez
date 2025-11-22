@@ -58,7 +58,7 @@ func main() {
 func index(app *inertia.ViteInstance) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		err := app.Render(w, r, "Index", inertia.Props{
-			"text": "Inertia.js with Svelte and Go! 💙",
+			"text": "Inertia.js with Svelte and Go 💙 !",
 		})
 		if err != nil {
 			app.ShareProp("error", err.Error())
