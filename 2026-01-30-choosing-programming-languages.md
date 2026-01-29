@@ -2,7 +2,7 @@
 title: Choosing Programming Languages
 author: Mike
 sub_title: Beyond the Syntax - A Practical Guide
-date: 2025-01-30
+date: 2026-01-30
 theme:
   name: tokyonight-storm
 ---
@@ -15,6 +15,8 @@ Who am I?
 - I Love Go
 - I'm here to share experience, not replace a Google search
 - I use Arch btw
+
+![image:width:50%](./assets/what-am-i.png)
 
 <!-- end_slide -->
 
