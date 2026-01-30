@@ -30,6 +30,10 @@ Why Are We Here?
 - Not which languages to memorize or focus on
 - Framework for decision-making based on real experience
 
+<!-- pause -->
+
+![image:width:50%](./assets/lets-make-some-money.jpg)
+
 <!-- end_slide -->
 
 The Reality Check
@@ -405,20 +409,20 @@ Practical Advice for Students: What to Focus On Now
 <!-- pause -->
 
 - Learn fundamentals, not just syntax
+  - Data structures and algorithms
+  - Design patterns and architectural concepts
+  - Testing and debugging
+  - Version control and collaboration
+  - Problem-solving mindset
 - Understand concepts that transfer between languages
 - Choose a language with strong community support
 - Build real projects, don't just watch tutorials
 - Learn how to learn new languages efficiently
+- Stay away from tech influencers
 
 <!-- pause -->
 
-**Core fundamentals:**
-
-- Data structures and algorithms
-- Design patterns and architectural concepts
-- Testing and debugging
-- Version control and collaboration
-- Problem-solving mindset
+![image:width:50%](./assets/tech-influencer.jpeg)
 
 <!-- end_slide -->
 
